@@ -86,6 +86,9 @@
                                             {% endif %}
                                         </li>
                                     {% endfor %}
+                                    {% if success_message %}
+                                        <p>{{ success_message }}</p>
+                                    {% endif %}
                                 </ul>
                             </p>
                         </div>
